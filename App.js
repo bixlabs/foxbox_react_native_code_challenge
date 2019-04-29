@@ -1,24 +1,21 @@
 import React from 'react';
-import store from "./appData/config/store";
-import {Provider} from 'react-redux';
-import NavigationView from "./appData/views/navigationContainer";
+import { Provider } from 'react-redux';
+import store from './appData/config/store';
+import NavigationView from './appData/views/navigationContainer';
 
-type Props = {};
-export default class App extends React.Component<{}> {
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-    constructor(props) {
-        super(props);
-        console.disableYellowBox = true;
-    }
-
-    render() {
-        return (
-            <Provider
-                store={store}
-            >
-                <NavigationView/>
-            </Provider>
-        );
-    }
+  render() {
+    return (
+      <Provider
+        store={store}
+      >
+        <NavigationView />
+      </Provider>
+    );
+  }
 }
-
