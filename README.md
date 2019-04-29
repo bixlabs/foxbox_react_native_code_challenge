@@ -32,5 +32,5 @@ react-native run-android
 ## Built With
 
 * [React-Native](https://facebook.github.io/react-native/) - The framework used
-* [Redux](https://redux.js.org) - Dependency Management
+* [Redux](https://redux.js.org) - State Management
 * [NPM](https://www.npmjs.com) - Dependency Management
