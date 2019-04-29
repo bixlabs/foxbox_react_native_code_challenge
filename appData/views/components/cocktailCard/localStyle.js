@@ -19,10 +19,12 @@ export default localStyle = StyleSheet.create({
     },
     cardTitle: {
         color: colors.textColor,
-        marginBottom: 10
+        marginBottom: 10,
+        marginRight: 10
     },
     cardText: {
-        color: colors.textColor
+        color: colors.textColor,
+        marginRight: 10
     },
     cocktailImage: {
         width: 130,

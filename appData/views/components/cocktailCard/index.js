@@ -13,6 +13,7 @@ export default class CocktailCard extends React.Component<{}> {
                 <View
                     style={localStyle.textContainer}>
                     <Text
+                        numberOfLines={2}
                         style={[appStyle.bigSection, localStyle.cardTitle]}
                     >
                         {this.props.cocktail.strDrink}
