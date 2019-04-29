@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-React-Native installed. And simulators linked to react native core.
+[React-Native installed](https://facebook.github.io/react-native/docs/getting-started). And simulators linked to react native core.
 
 
 ### Installing
@@ -25,7 +25,9 @@ run Ios or Android simulator
 
 ```
 react-native run-ios
+```
 
+```
 react-native run-android
 ```
 
